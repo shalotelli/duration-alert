@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Age Colors</title>
+
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+  <script src="bower_components/jquery/jquery.min.js"></script>
+  <script src="bower_components/angular/angular.min.js"></script>
+  <script src="bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+  <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+
+  <script src="app.js"></script>
+  <script src="main.js"></script>
+  <script src="DurationAlert.js"></script>
+</head>
+<body ng-app="durationalert">
+  <div class="container" ng-controller="MainCtrl">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1>Duration Alert</h1>
+      </div>
+    </div>
+    <div class="row">
+      <duration-alert age="20" display-exact="true" append-text="Days"></duration-alert>
+    </div>
+  </div>
+</body>
+</html>
