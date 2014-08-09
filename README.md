@@ -3,6 +3,9 @@ duration-alert
 
 Visual Duration Alert Angular Directive
 
+#Demo
+View the demo on Plunker: http://plnkr.co/edit/CSh966v25UuZ2EJ78Rhi?p=preview
+
 #Usage
 1. Set custom thresholds in your app modules config method
 ```javascript
